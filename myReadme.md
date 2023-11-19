@@ -34,36 +34,12 @@ This project is a Node.js application that serves as a robust log ingestor and q
 <!-- Usages -->
 ## Usage
 
-For detailed instructions on using the project, refer to the [Documentation]([https://example.com](https://docs.google.com/document/d/1ilrhoQ4D8RtQszUadX_OxiIE2aadByJaPG0l3SAeWw8/)).
+For detailed instructions on using the project, refer to the [Documentation]([https://docs.google.com/document/d/1ilrhoQ4D8RtQszUadX_OxiIE2aadByJaPG0l3SAeWw8/]).
 
+## API Endpoints
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+- `POST /logs`: Ingest logs.
+- `GET /logs`: Query logs based on filters.
 
 
 <!-- CONTACT -->
