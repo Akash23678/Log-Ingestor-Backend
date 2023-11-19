@@ -34,7 +34,7 @@ This project is a Node.js application that serves as a robust log ingestor and q
 <!-- Usages -->
 ## Usage
 
-For detailed instructions on using the project, refer to the [Documentation]([https://docs.google.com/document/d/1ilrhoQ4D8RtQszUadX_OxiIE2aadByJaPG0l3SAeWw8/]).
+For detailed instructions on using the project, refer to the [Documentation](https://docs.google.com/document/d/1ilrhoQ4D8RtQszUadX_OxiIE2aadByJaPG0l3SAeWw8/).
 
 ## API Endpoints
 
