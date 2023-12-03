@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  mongo-db:
+    container_name: mongo-container
+    image: mongo:latest
+    ports:
+      - 1000:27017
+    restart: always
+    volumes:
+      - mongoDB:/data/db
+
+  rest-api:
+    container_name: log-ingestor-container
+    build: .
+    ports: 
+      - 4000:3000
+    environment:
+      PORT: 3000
+      MONGODB_URI: mongodb://mongo-db:27017
+      DB_NAME: my_db
+    depends_on: 
+      - mongo-db
+
+volumes:
+  mongoDB: {}
