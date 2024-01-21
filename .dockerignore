@@ -1,4 +1,5 @@
 node_modules
-myReadme.myReadme
+myReadme.md
 Dockerfile
 docker-compose.yaml
+k8s
